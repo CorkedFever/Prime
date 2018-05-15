@@ -1,0 +1,17 @@
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\bin\Release\netstandard2.0\Prime.deps.json
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\bin\Release\netstandard2.0\Prime.dll
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\bin\Release\netstandard2.0\Prime.pdb
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.csprojResolveAssemblyReference.cache
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.csproj.CoreCompileInputs.cache
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.App.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.MainMenu.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.MainPage.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.PageConsumable.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.PageEquipment.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.PageNewEquipment.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.PageReorder.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.PageStats.xaml.g.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.AssemblyInfoInputs.cache
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.AssemblyInfo.cs
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.dll
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime\obj\Release\netstandard2.0\Prime.pdb

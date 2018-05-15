@@ -1,0 +1,1 @@
+E:\Projects\Prime NDT_Inventory Management\Prime\Prime\Prime.UWP\Prime.UWP.csproj;x86

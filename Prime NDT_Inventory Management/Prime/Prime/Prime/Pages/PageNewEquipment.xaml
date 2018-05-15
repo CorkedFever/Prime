@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prime.PageNewEquipment">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Create a new Equipment Item"
+                HorizontalOptions="CenterAndExpand" />
+            <TableView>
+                <TableSection Title="Info">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Serial Number: "
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
+                            <Entry x:Name="txbSerialNumber"
+                                   Text=""
+                                   Placeholder="Enter Some Text Here"
+                                   HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Description: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                            <Entry x:Name="txbDescription"
+                                   Text=""
+                                   Placeholder="Write a Description"
+                                   HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="RIGNumber: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                            <Entry x:Name="txbRIGNumber"
+                                   Text=""
+                                   Placeholder="Write a RIGNumber"
+                                   HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Radiographer: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                            <Entry x:Name="txbRadiographer"
+                                   Text=""
+                                   Placeholder="Write a Radiographer"
+                                   HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="EquipmentType: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                            <Picker 
+                                x:Name="pckEquipmentType"
+                                HorizontalOptions="FillAndExpand">
+                                <Picker.Items>
+                                    <x:String>Darkroom</x:String>
+                                    <x:String>Consumables - Rig</x:String>
+                                    <x:String>Consumables - Film</x:String>
+                                    <x:String>Personal</x:String>
+                                </Picker.Items>
+                            </Picker>
+                            <!--<Entry x:Name="txbEquipmentType"
+                                   Text=""
+                                   Placeholder="Write a EquipmentType"
+                                   HorizontalOptions="FillAndExpand"/>-->
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Quanity: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center" />
+                            <Entry x:Name="txbQuanity"
+                                   Text=""
+                                   Placeholder="Write a Quanity"
+                                   HorizontalOptions="FillAndExpand"
+                                   Keyboard="Numeric"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Cost: "
+                                   HorizontalTextAlignment="Center"                                   
+                                   VerticalTextAlignment="Center"/>
+                            <Entry x:Name="txbCost"
+                                   Text=""
+                                   Placeholder="Write a Cost"
+                                   HorizontalOptions="FillAndExpand"
+                                   Keyboard="Numeric"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout>
+                            <Button x:Name="btnSaveEquipment"
+                                    Text="Save Equipment"
+                                    Clicked="btnSaveEquipment_Clicked"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                </TableSection>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

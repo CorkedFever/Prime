@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prime.PageEquipmentEdit">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Serial number: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+                <Entry x:Name="txbSerialNumber" 
+                       Text=""
+                       Placeholder=""
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Description: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+                <Entry x:Name="txbDescription" 
+                       Text=""
+                       Placeholder=""
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="RIGNumber: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+                <Entry x:Name="txbRIGNumber" 
+                       Text=""
+                       Placeholder=""
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Radiographer: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                <Entry x:Name="txbRadiographer"
+                                   Text=""
+                                   Placeholder=""
+                                   HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="EquipmentType: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+                <Picker 
+                    x:Name="pckEquipmentType"
+                    HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>Darkroom</x:String>
+                        <x:String>Consumables - Rig</x:String>
+                        <x:String>Consumables - Film</x:String>
+                        <x:String>Personal</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Quanity: "
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center" />
+                <Entry x:Name="txbQuanity"
+                                   Text=""
+                                   Placeholder=""
+                                   HorizontalOptions="FillAndExpand"
+                                   Keyboard="Numeric"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cost: "
+                                   HorizontalTextAlignment="Center"                                   
+                                   VerticalTextAlignment="Center"/>
+                <Entry x:Name="txbCost"
+                        Text=""
+                        Placeholder=""
+                        HorizontalOptions="FillAndExpand"
+                        Keyboard="Numeric"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Button x:Name="btnUpdate"
+                        Text="Save Equipment"
+                        Clicked="btnUpdate_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

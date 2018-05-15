@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prime.MainMenu">
+
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection Title="MainMenu">
+                <ViewCell  >
+                    <Label Text="Select an option below!"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    
+                </ViewCell>
+                <ViewCell>
+                    <Button
+                        x:Name="btnEquipment"
+                        Text="Equipment"
+                        Clicked="btnEquipment_Clicked"    />
+                </ViewCell>
+                <ViewCell>
+                    <Button
+                        x:Name="btnReorder"
+                        Text="Reorder"
+                        Clicked="btnReorder_Clicked"/>
+                    
+                </ViewCell>
+                <ViewCell>
+                    <Label Text="Consumables"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button x:Name="btnRigConsumables"
+                                Text="Rig Consumables"
+                                Clicked="btnRigConsumables_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button x:Name="btnFilmConsumables"
+                                Text="Film Consumables"
+                                Clicked="btnFilmConsumabes_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Label Text="Logistics"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                    
+                    
+                </ViewCell>
+                <ViewCell>
+                    <Button x:Name="btnRigs"
+                            Text="Rigs"
+                            Clicked="btnRig_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button x:Name="btnTrucks"
+                            Text="Trucks"
+                            Clicked="btnTrucks_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Label Text="Other"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button x:Name="btnStats"
+                            Text="Stats"
+                            Clicked="btnStats_Clicked"/>
+
+
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
